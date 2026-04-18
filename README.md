@@ -27,6 +27,7 @@ scipy, numpy, scikit-learn, matplotlib
 torchsummary, torch_optimizer (optional)
 # Data Preparation
 Place your HSI datasets in the ./data/ folder with the following structure:
+```text
 ./data/
 ├── IndianPines/
 │   ├── Indian_pines_corrected.mat
