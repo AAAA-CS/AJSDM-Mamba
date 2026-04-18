@@ -39,6 +39,7 @@ Place your HSI datasets in the ./data/ folder with the following structure:
 │   ├── Salinas_corrected.mat
 │   └── Salinas_gt.mat
 └── ... (other datasets as named in dataloader.py)
+...
 The code automatically applies PCA reduction (dimension set per dataset) before training.
 
 # Training
